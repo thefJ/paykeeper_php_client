@@ -1,0 +1,31 @@
+{
+    "name": "thefj/paykeeper_php_client",
+    "description": "Package for using Paykeeper Api",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "fJ",
+            "email": "franchesko74@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.3.0",
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    },
+    "require-dev": {
+        "ext-dom": "*",
+        "phpunit/phpunit": "^11.4.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ThefJ\\PayKeeperClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ThefJ\\PayKeeperClient\\Tests\\": "tests/"
+        }
+    }
+}
