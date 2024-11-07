@@ -11,13 +11,13 @@
     ],
     "require": {
         "php": ">=8.3.0",
-        "guzzlehttp/guzzle": "8.0.x-dev"
+        "guzzlehttp/guzzle": "^7.9.2"
     },
     "require-dev": {
         "ext-dom": "*",
         "phpunit/phpunit": "^11.4.3"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "ThefJ\\PayKeeperClient\\": "src/"
